@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>xxx</title>
+    <link rel="stylesheet" href="assets/css/main.css" />
+  </head>
+  <body>
+    <div id='result'>
+
+    <div/>
+    <script>
+    document.addEventListener("keydown", function (e) {
+        if (e.which === 123) {
+            require('remote').getCurrentWindow().toggleDevTools();
+        } else if (e.which === 116) {
+            location.reload();
+        }
+    });
+</script>
+    <script type="text/javascript" src="crawler.js"></script>
+  </body>
+</html>
