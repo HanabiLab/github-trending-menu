@@ -7,7 +7,7 @@ window.onload=function(){
         var txt = "<div id='repo-list'>";
         repos.forEach(function(repo){
             var link = "https://github.com/" + repo.owner + "/" + repo.name
-            txt += "<a href=" + "'" + link + "'" + "><div class='repo-item'>" + repo.owner + "/" + "<span style='font-weight: bold'>" +repo.name + "</span>" + "</div></a>" + "<br />";
+            txt += "<a href=" + "'" + link + "'" + "><div class='repo-item ui red segment'>" + repo.owner + "/" + "<span style='font-weight: bold'>" +repo.name + "</span>" + "</div></a>" + "<br />";
         });
         txt += "</div>"
         document.getElementById('result').innerHTML = txt;
