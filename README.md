@@ -1,2 +1,3 @@
-# instamenu
-Instagram Filter on Mac Menubar
+# github trend menubar
+---
+Get Github Daily Trending From Your Mac Menubar
