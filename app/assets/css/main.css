@@ -1,9 +1,17 @@
-#holder {
-    min-height: 100px;
-    min-width: 100px;
+#logo {
+    text-align: center;
 }
 
-#myImg {
-    max-height: 200px;
-    max-width: 200px;
+#logo #git-star {
+    max-height: 100px;
+    max-width: 100px;
+}
+
+#logo .welcome {
+    text-align: center;
+    font-weight: bold;
+}
+
+#result #repo-list .repo-item{
+    text-align: left;
 }
