@@ -1,9 +1,9 @@
 {
-  "name"    : "insta_menu",
-  "version" : "0.0.1",
+  "name"    : "github_trending_menu",
+  "version" : "0.0.2",
   "main"    : "main.js",
   "dependencies": {
-        "github-trend": "latest",
-        "menubar": "latest"
-  },
+        "github-trend": "0.0.6",
+        "menubar": "2.3.0"
+  }
 }
