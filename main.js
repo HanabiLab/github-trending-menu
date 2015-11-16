@@ -1,10 +1,12 @@
 var menubar = require('menubar')
 
-var mb             = menubar({
+var mb = menubar({
   icon          : __dirname + '/Icon.png',
   dir           : __dirname + '/app',
   preloadWindow : true, 
-  resizable     : false
+  resizable     : false,
+  width         : 300,
+  height        : 500,
 })
 
 mb.on('ready', function ready () {
