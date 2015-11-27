@@ -3,7 +3,7 @@
   "version" : "0.0.2",
   "main"    : "main.js",
   "dependencies": {
-        "github-trend": "0.0.6",
+        "github_trending_node": "0.0.1",
         "menubar": "2.3.0"
   }
 }

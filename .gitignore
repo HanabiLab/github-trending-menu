@@ -1,1 +1,5 @@
+# For nodejs modules
 node_modules
+
+# For test scripts
+test.js
