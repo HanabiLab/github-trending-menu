@@ -1,9 +1,10 @@
 {
-  "name"    : "github_trending_menu",
-  "version" : "0.0.2",
-  "main"    : "main.js",
+  "name": "github-trending-menu",
+  "version": "0.0.2",
+  "main": "main.js",
   "dependencies": {
-        "github_trending_node": "0.0.1",
-        "menubar": "2.3.0"
+    "github-trend-crawler": "0.0.1",
+    "jquery": "^2.2.1",
+    "menubar": "~2.3.0"
   }
 }
