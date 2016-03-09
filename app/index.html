@@ -1,27 +1,31 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>xxx</title>
+    <title>Github Trending Menu</title>
     <link rel="stylesheet" href="assets/css/main.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.6/semantic.css" />
-    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.css">
     <script>window.$ = window.jQuery = require('jquery');</script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.6/semantic.js"></script>
     <script type="text/javascript" src="assets/js/open-in-browser.js"></script>
-    <script type="text/javascript" src="crawler.js"></script>
+    
   </head>
   <body>
     <!-- result render start -->
     <div class="ui top attached tabular menu">
-      <a class="item active" data-tab="all">All</a>
-      <a class="item" data-tab="python">Python</a>
+      <a class="item active" id="alltab" data-tab="all">All</a>
+      <a class="item" id="pytab" data-tab="python"><i class="devicon-python-plain"></i></a>
+      <a class="item" id="jstab" data-tab="javascript"><i class="devicon-javascript-plain"></i></a>
     </div>
-    <div class="ui bottom attached tab segment active" id="all" data-tab="all">
+    <div class="ui bottom attached loading tab segment active" id="all" data-tab="all">
     </div>
-    <div class="ui bottom attached tab segment" id="python" data-tab="python" >
+    <div class="ui bottom attached tab segment" id="py" data-tab="python" >
+    </div>
+    <div class="ui bottom attached tab segment" id="js" data-tab="javascript" >
     </div>
     <!-- result render end -->
 
+    <script type="text/javascript" src="crawler.js"></script>
     <script>
       $('.menu .item')
         .tab()
