@@ -34,7 +34,7 @@ $('#alltab').click(function(){
         });
         txt += "</div>";
         $('#all').attr('class', 'ui bottom attached tab segment active');
-        document.getElementById('py').innerHTML = txt;
+        document.getElementById('all').innerHTML = txt;
     }).catch(function(err){
         console.log(err.message);
     });
