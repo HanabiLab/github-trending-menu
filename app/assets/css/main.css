@@ -15,3 +15,11 @@
 #result #repo-list .repo-item{
     text-align: left;
 }
+
+.icon {
+    padding-left: 9px;
+}
+
+.description {
+    padding-right: 30px;
+}
