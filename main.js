@@ -1,7 +1,7 @@
 var menubar = require('menubar')
 
 var mb = menubar({
-  icon          : __dirname + '/Icon.png',
+  icon          : __dirname + '/icon.png',
   dir           : __dirname + '/app',
   preloadWindow : true, 
   resizable     : false,
