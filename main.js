@@ -11,5 +11,5 @@ var mb = menubar({
 
 mb.on('ready', function ready () {
   console.log('app is ready')
-  mb.window.loadUrl('file://' + __dirname + '/app/index.html');
+  mb.window.loadURL('file://' + __dirname + '/app/index.html');
 })
