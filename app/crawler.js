@@ -3,7 +3,7 @@ var crawler = new trend.Crawler();
 
 window.$ = window.jQuery = require('jquery');
  
-// Empty string means 'all languages'
+// TODO: Support All Languages
 window.onload=function(){
     crawler.fetchTrendRepos("", function(repos){
         var txt = "<div id='repo-list' class='ui relaxed divided list'>";
